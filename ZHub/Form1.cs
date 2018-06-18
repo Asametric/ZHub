@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,7 +20,8 @@ namespace ZHub
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Box box = new Box();
+            box.Show();
         }
 
         private void Close_Click(object sender, EventArgs e)
@@ -47,7 +49,23 @@ namespace ZHub
 
         private void Close_MouseLeave(object sender, EventArgs e)
         {
-            Close.BackColor = Color.FromArgb(92, 180, 222);
+            Close.BackColor = Color.FromArgb(99, 96, 101);
         }
+        int location = 1;
+        public void Form1_Load(object sender, EventArgs e)
+        {
+            var files = Directory.GetFiles(@".\","*.tmp");
+            foreach(string file in files)
+            {
+                File.ReadAllText(file);
+                Template temp = new Template();
+                temp.SetName(file.Split('\\').Last().Split('.')[0]);
+                temp.Left = location * 28;
+                temp.Top = 55;
+                location++;
+                this.Controls.Add(temp);
+            }
+        }
+       
     }
 }

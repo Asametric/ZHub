@@ -38,19 +38,20 @@
             // NewTemplate
             // 
             resources.ApplyResources(this.NewTemplate, "NewTemplate");
-            this.NewTemplate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(180)))), ((int)(((byte)(222)))));
+            this.NewTemplate.BackColor = System.Drawing.Color.Black;
             this.NewTemplate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NewTemplate.FlatAppearance.BorderSize = 0;
             this.NewTemplate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(117)))), ((int)(((byte)(166)))));
             this.NewTemplate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(169)))), ((int)(((byte)(221)))));
-            this.NewTemplate.ForeColor = System.Drawing.Color.Black;
+            this.NewTemplate.ForeColor = System.Drawing.Color.Snow;
             this.NewTemplate.Name = "NewTemplate";
+            this.NewTemplate.UseMnemonic = false;
             this.NewTemplate.UseVisualStyleBackColor = false;
             this.NewTemplate.Click += new System.EventHandler(this.button1_Click);
             // 
             // Close
             // 
-            this.Close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(180)))), ((int)(((byte)(222)))));
+            this.Close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(96)))), ((int)(((byte)(101)))));
             resources.ApplyResources(this.Close, "Close");
             this.Close.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Close.FlatAppearance.BorderSize = 0;
@@ -64,7 +65,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(180)))), ((int)(((byte)(222)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(96)))), ((int)(((byte)(101)))));
             this.panel1.Controls.Add(this.Close);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
@@ -75,12 +76,13 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(117)))), ((int)(((byte)(166)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.NewTemplate);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
