@@ -31,12 +31,14 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.NewTemplate = new System.Windows.Forms.Button();
             this.Close = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // NewTemplate
             // 
             resources.ApplyResources(this.NewTemplate, "NewTemplate");
-            this.NewTemplate.BackColor = System.Drawing.Color.Transparent;
+            this.NewTemplate.BackColor = System.Drawing.Color.White;
             this.NewTemplate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NewTemplate.ForeColor = System.Drawing.Color.Black;
             this.NewTemplate.Name = "NewTemplate";
@@ -45,26 +47,31 @@
             // 
             // Close
             // 
+            this.Close.BackColor = System.Drawing.Color.White;
             this.Close.Cursor = System.Windows.Forms.Cursors.Hand;
             resources.ApplyResources(this.Close, "Close");
             this.Close.Name = "Close";
-            this.Close.UseVisualStyleBackColor = true;
+            this.Close.UseVisualStyleBackColor = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(252)))), ((int)(((byte)(37)))));
+            this.panel1.Controls.Add(this.Close);
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(86)))), ((int)(((byte)(128)))));
-            this.Controls.Add(this.Close);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.NewTemplate);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
-<<<<<<< HEAD
-=======
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
->>>>>>> cf7ecb0c88b4cad2322816d0ac0442f11912c4f6
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -73,6 +80,7 @@
 
         private System.Windows.Forms.Button NewTemplate;
         private System.Windows.Forms.Button Close;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

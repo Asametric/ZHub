@@ -132,10 +132,10 @@
     <value>NoControl</value>
   </data>
   <data name="NewTemplate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 323</value>
+    <value>12, 319</value>
   </data>
   <data name="NewTemplate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>158, 34</value>
+    <value>104, 43</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewTemplate.TabIndex" type="System.Int32, mscorlib">
@@ -163,7 +163,7 @@
     <value>Roboto, 8.25pt</value>
   </data>
   <data name="Close.Location" type="System.Drawing.Point, System.Drawing">
-    <value>506, 1</value>
+    <value>504, 0</value>
   </data>
   <data name="Close.Size" type="System.Drawing.Size, System.Drawing">
     <value>55, 43</value>
@@ -181,9 +181,30 @@
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;Close.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>panel1</value>
   </data>
   <data name="&gt;&gt;Close.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 2</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>559, 118</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
