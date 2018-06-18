@@ -50,9 +50,9 @@
             // 
             // Close
             // 
-            this.Close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(117)))), ((int)(((byte)(166)))));
+            this.Close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(180)))), ((int)(((byte)(222)))));
             resources.ApplyResources(this.Close, "Close");
-            this.Close.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Close.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Close.FlatAppearance.BorderSize = 0;
             this.Close.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(0)))), ((int)(((byte)(5)))));
             this.Close.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(5)))));
