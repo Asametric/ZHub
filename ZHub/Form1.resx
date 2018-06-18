@@ -126,12 +126,17 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="NewTemplate.Font" type="System.Drawing.Font, System.Drawing">
+<<<<<<< HEAD
     <value>Microsoft Sans Serif, 8.25pt</value>
+=======
+    <value>Roboto, 9.75pt</value>
+>>>>>>> 54ab163f743154d211b9f07676705d6cbb15f951
   </data>
   <data name="NewTemplate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="NewTemplate.Location" type="System.Drawing.Point, System.Drawing">
+<<<<<<< HEAD
     <value>16, 393</value>
   </data>
   <data name="NewTemplate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
@@ -139,6 +144,12 @@
   </data>
   <data name="NewTemplate.Size" type="System.Drawing.Size, System.Drawing">
     <value>139, 53</value>
+=======
+    <value>12, 328</value>
+  </data>
+  <data name="NewTemplate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 34</value>
+>>>>>>> 54ab163f743154d211b9f07676705d6cbb15f951
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewTemplate.TabIndex" type="System.Int32, mscorlib">
@@ -179,10 +190,14 @@
     <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="Close.Location" type="System.Drawing.Point, System.Drawing">
+<<<<<<< HEAD
     <value>707, 0</value>
   </data>
   <data name="Close.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
+=======
+    <value>526, 3</value>
+>>>>>>> 54ab163f743154d211b9f07676705d6cbb15f951
   </data>
   <data name="Close.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 37</value>

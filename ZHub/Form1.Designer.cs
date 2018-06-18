@@ -38,8 +38,11 @@
             // NewTemplate
             // 
             resources.ApplyResources(this.NewTemplate, "NewTemplate");
-            this.NewTemplate.BackColor = System.Drawing.Color.White;
+            this.NewTemplate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(180)))), ((int)(((byte)(222)))));
             this.NewTemplate.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.NewTemplate.FlatAppearance.BorderSize = 0;
+            this.NewTemplate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(117)))), ((int)(((byte)(166)))));
+            this.NewTemplate.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(169)))), ((int)(((byte)(221)))));
             this.NewTemplate.ForeColor = System.Drawing.Color.Black;
             this.NewTemplate.Name = "NewTemplate";
             this.NewTemplate.UseVisualStyleBackColor = false;
@@ -47,9 +50,12 @@
             // 
             // Close
             // 
-            this.Close.BackColor = System.Drawing.Color.Transparent;
+            this.Close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(117)))), ((int)(((byte)(166)))));
             resources.ApplyResources(this.Close, "Close");
             this.Close.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Close.FlatAppearance.BorderSize = 0;
+            this.Close.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(0)))), ((int)(((byte)(5)))));
+            this.Close.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(0)))), ((int)(((byte)(5)))));
             this.Close.Name = "Close";
             this.Close.UseVisualStyleBackColor = false;
             this.Close.Click += new System.EventHandler(this.Close_Click);
