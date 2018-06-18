@@ -10,3 +10,15 @@ C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\ZHub\obj\Debug\ZHub.csproj.Core
 C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\ZHub\obj\Debug\en-GB\ZHub.resources.dll
 C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\ZHub\obj\Debug\ZHub.exe
 C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\ZHub\obj\Debug\ZHub.pdb
+C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\bin\Debug\ZHub.exe.config
+C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\bin\Debug\ZHub.exe
+C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\bin\Debug\ZHub.pdb
+C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\bin\Debug\en-GB\ZHub.resources.dll
+C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\obj\Debug\ZHub.Form1.resources
+C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\obj\Debug\ZHub.Properties.Resources.resources
+C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\obj\Debug\ZHub.Form1.en-GB.resources
+C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\obj\Debug\ZHub.csproj.GenerateResource.Cache
+C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\obj\Debug\ZHub.csproj.CoreCompileInputs.cache
+C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\obj\Debug\en-GB\ZHub.resources.dll
+C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\obj\Debug\ZHub.exe
+C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\obj\Debug\ZHub.pdb
