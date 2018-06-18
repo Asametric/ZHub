@@ -3,3 +3,5 @@
 1. Start work on actually getting some type of interface going for our app - Zero
 2. Deciding what the apps functions and uses will be - Asametric
 3. Add more things to the todolist - Asametric & Zero
+4. Programming stuff - Zero
+5. UI - Asametric
