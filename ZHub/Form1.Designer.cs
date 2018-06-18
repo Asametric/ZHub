@@ -52,6 +52,9 @@
             this.Close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Close.Name = "Close";
             this.Close.UseVisualStyleBackColor = false;
+            this.Close.Click += new System.EventHandler(this.Close_Click);
+            this.Close.MouseLeave += new System.EventHandler(this.Close_MouseLeave);
+            this.Close.MouseHover += new System.EventHandler(this.Close_MouseHover);
             // 
             // panel1
             // 
@@ -59,6 +62,8 @@
             this.panel1.Controls.Add(this.Close);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Mouse_Down);
+            this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Mouse_Move);
             // 
             // Form1
             // 

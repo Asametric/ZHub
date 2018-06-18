@@ -21,5 +21,33 @@ namespace ZHub
         {
 
         }
+
+        private void Close_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+        private void Mouse_Move(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
+        }
+        Point lastPoint;
+        private void Mouse_Down(object sender, MouseEventArgs e)
+        {
+            lastPoint = new Point(e.X, e.Y);
+        }
+
+        private void Close_MouseHover(object sender, EventArgs e)
+        {
+            Close.BackColor = Color.FromArgb(232, 17, 35);
+        }
+
+        private void Close_MouseLeave(object sender, EventArgs e)
+        {
+            Close.BackColor = Color.FromArgb(92, 180, 222);
+        }
     }
 }

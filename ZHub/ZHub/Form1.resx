@@ -126,16 +126,19 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="NewTemplate.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto Light, 8.25pt</value>
+    <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
   <data name="NewTemplate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="NewTemplate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 319</value>
+    <value>16, 393</value>
+  </data>
+  <data name="NewTemplate.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="NewTemplate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 43</value>
+    <value>139, 53</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewTemplate.TabIndex" type="System.Int32, mscorlib">
@@ -156,41 +159,48 @@
   <data name="&gt;&gt;NewTemplate.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="Close.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wgAADsIBFShKgAAAABl0RVh0U29mdHdhcmUAcGFpbnQubmV0IDQuMC4yMfEgaZUAAADSSURBVDhPpZQx
+        CsJAEEWDCoKFjZUn0DvYCWIreABbawtB9DA2aqOtnZ2NjbfwHv4/MLDqupmdffAgv3lkk5AKjOGAF4X0
+        4YwXjD3hkMNJDz7gSBZgzBvtwjucygrwRDvwBueyIuRE2/AKF7ISWKIteIFLWQZS0SY8wZWsDGLRBtzD
+        rSwHYVRjO1iERs+wOEZ4Z4y9YHh8F+Exw+O74Nv8fmbuKGNHGHtm2dFUTDFHLTGlNsrYAW5k2fgb1dha
+        Vh4/UX4a3pjyEeUPsvYXZACxavIG3wcpQxF0kg4AAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="Close.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto, 8.25pt</value>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>713, 0</value>
   </data>
-  <data name="Close.Location" type="System.Drawing.Point, System.Drawing">
-    <value>504, 0</value>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
   </data>
-  <data name="Close.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 43</value>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>CenterImage</value>
   </data>
-  <data name="Close.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
   </data>
-  <data name="Close.Text" xml:space="preserve">
-    <value>CLOSE</value>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
   </data>
-  <data name="&gt;&gt;Close.Name" xml:space="preserve">
-    <value>Close</value>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Close.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Close.Parent" xml:space="preserve">
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
     <value>panel1</value>
   </data>
-  <data name="&gt;&gt;Close.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>1, 2</value>
   </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>559, 118</value>
+    <value>745, 145</value>
   </data>
   <data name="panel1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -211,10 +221,10 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>561, 374</value>
+    <value>748, 460</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -384,7 +394,7 @@
 </value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Form1</value>
