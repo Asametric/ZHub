@@ -126,16 +126,16 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="NewTemplate.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Roboto Light, 8.25pt</value>
+    <value>Roboto, 9.75pt</value>
   </data>
   <data name="NewTemplate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="NewTemplate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 319</value>
+    <value>12, 328</value>
   </data>
   <data name="NewTemplate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>104, 43</value>
+    <value>104, 34</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NewTemplate.TabIndex" type="System.Int32, mscorlib">
@@ -176,7 +176,7 @@
     <value>Roboto, 8.25pt</value>
   </data>
   <data name="Close.Location" type="System.Drawing.Point, System.Drawing">
-    <value>530, 0</value>
+    <value>526, 3</value>
   </data>
   <data name="Close.Size" type="System.Drawing.Size, System.Drawing">
     <value>30, 30</value>

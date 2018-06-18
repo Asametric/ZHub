@@ -22,3 +22,4 @@ C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\obj\Debug\ZHub.csproj.CoreCompi
 C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\obj\Debug\en-GB\ZHub.resources.dll
 C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\obj\Debug\ZHub.exe
 C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\obj\Debug\ZHub.pdb
+C:\Users\Windows 10\Documents\GitHub\NewApp\ZHub\obj\Debug\ZHub.csprojResolveAssemblyReference.cache
