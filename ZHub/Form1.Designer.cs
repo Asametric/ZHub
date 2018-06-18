@@ -32,7 +32,9 @@
             this.NewTemplate = new System.Windows.Forms.Button();
             this.Close = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // NewTemplate
@@ -72,11 +74,19 @@
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Mouse_Down);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Mouse_Move);
             // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.NewTemplate);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
@@ -84,6 +94,7 @@
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -93,6 +104,7 @@
         private System.Windows.Forms.Button NewTemplate;
         private System.Windows.Forms.Button Close;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

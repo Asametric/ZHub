@@ -29,12 +29,12 @@ namespace ZHub
         {
             this.Close();
         }
-
+        int location = 1;
         private void button1_Click(object sender, EventArgs e)
         {
+            
             File.WriteAllText(@".\" + textBox1.Text+".tmp", richTextBox1.Text);
-            Form1 f = new Form1();
-            f.Form1_Load(null,null);
+            this.Close();
         }
 
     }
