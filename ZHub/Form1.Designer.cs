@@ -47,25 +47,24 @@
             // 
             // Close
             // 
-            this.Close.BackColor = System.Drawing.Color.White;
-            this.Close.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Close.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.Close, "Close");
+            this.Close.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Close.Name = "Close";
             this.Close.UseVisualStyleBackColor = false;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(252)))), ((int)(((byte)(37)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(180)))), ((int)(((byte)(222)))));
             this.panel1.Controls.Add(this.Close);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(117)))), ((int)(((byte)(117)))), ((int)(((byte)(117)))));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(117)))), ((int)(((byte)(166)))));
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.NewTemplate);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
