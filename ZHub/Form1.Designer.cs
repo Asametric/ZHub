@@ -32,13 +32,15 @@
             this.NewTemplate = new System.Windows.Forms.Button();
             this.Close = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // NewTemplate
             // 
+            this.NewTemplate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(117)))), ((int)(((byte)(166)))));
             resources.ApplyResources(this.NewTemplate, "NewTemplate");
-            this.NewTemplate.BackColor = System.Drawing.Color.Black;
             this.NewTemplate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.NewTemplate.FlatAppearance.BorderSize = 0;
             this.NewTemplate.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(117)))), ((int)(((byte)(166)))));
@@ -51,7 +53,7 @@
             // 
             // Close
             // 
-            this.Close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(96)))), ((int)(((byte)(101)))));
+            this.Close.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(117)))), ((int)(((byte)(166)))));
             resources.ApplyResources(this.Close, "Close");
             this.Close.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.Close.FlatAppearance.BorderSize = 0;
@@ -66,11 +68,20 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(99)))), ((int)(((byte)(96)))), ((int)(((byte)(101)))));
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.Close);
             resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Name = "panel1";
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Mouse_Down);
             this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Mouse_Move);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
@@ -84,6 +95,7 @@
             this.Name = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -93,6 +105,7 @@
         private System.Windows.Forms.Button NewTemplate;
         private System.Windows.Forms.Button Close;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

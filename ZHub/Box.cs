@@ -37,5 +37,9 @@ namespace ZHub
             f.Form1_Load(null,null);
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
