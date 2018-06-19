@@ -81,7 +81,7 @@ namespace ZHub
                 File.ReadAllText(file);
                 Template temp = new Template();
                 temp.SetName(file.Split('\\').Last().Split('.')[0]);
-                temp.Left = location * 28;
+                temp.Left = location * 30;
                 temp.Top = 55;
                 location++;
                 this.Controls.Add(temp);
