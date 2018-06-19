@@ -34,7 +34,6 @@ namespace ZHub
         {
             
             File.WriteAllText(@".\" + textBox1.Text+".tmp", richTextBox1.Text);
-            this.Close();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

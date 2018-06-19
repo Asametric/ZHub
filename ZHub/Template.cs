@@ -57,7 +57,8 @@ namespace ZHub
                 Process.Start(file);
             }
         }
-        int location = 1;
+        int location = 0;
+        int location2 = 55;
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             File.Delete(@".\" + textBox1.Text + ".tmp");
@@ -67,8 +68,8 @@ namespace ZHub
                 File.ReadAllText(file);
                 Template temp = new Template();
                 temp.SetName(file.Split('\\').Last().Split('.')[0]);
-                temp.Left = location * 28;
-                temp.Top = 55;
+                temp.Left = location * 110;
+                temp.Top = location2;
                 location++;
                 this.Controls.Add(temp);
             }

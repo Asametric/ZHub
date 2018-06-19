@@ -51,7 +51,8 @@ namespace ZHub
         {
             Close.BackColor = Color.FromArgb(99, 96, 101);
         }
-        int location = 1;
+        int location = 0;
+        int location2 = 55;
         public void Form1_Load(object sender, EventArgs e)
         {
             var files = Directory.GetFiles(@".\","*.tmp");
@@ -60,8 +61,18 @@ namespace ZHub
                 File.ReadAllText(file);
                 Template temp = new Template();
                 temp.SetName(file.Split('\\').Last().Split('.')[0]);
-                temp.Left = location * 28;
-                temp.Top = 55;
+                if (location == 5)
+                {
+                    location2 = location2 * 3;
+                    location = 0;
+                    if (location2 == 55 * 3)
+                    {
+                        MessageBox.Show("This is the limit!!!");
+                        NewTemplate.Enabled = false;
+                    }
+                }
+                temp.Left = location * 110;
+                temp.Top = location2;
                 location++;
                 this.Controls.Add(temp);
             }
@@ -72,17 +83,28 @@ namespace ZHub
             foreach (Control control in this.Controls)
             {
                 if (control.BackColor == Color.FromArgb(55, 55, 55)) { control.Dispose(); }
-                location = 1;
+                location = 0;
+                location2 = 55;
             }
             var files = Directory.GetFiles(@".\","*.tmp");
-            foreach(string file in files)
+            foreach (string file in files)
             {
-       
+
                 File.ReadAllText(file);
                 Template temp = new Template();
                 temp.SetName(file.Split('\\').Last().Split('.')[0]);
-                temp.Left = location * 30;
-                temp.Top = 55;
+                if (location == 5)
+                {
+                    location2 = location2 * 3;
+                    location = 0;
+                    if (location2 == 55 * 3)
+                    {
+                        MessageBox.Show("This is the limit!!!");
+                        NewTemplate.Enabled = false;
+                    }
+                }
+                temp.Left = location * 110;
+                temp.Top = location2;
                 location++;
                 this.Controls.Add(temp);
             }
