@@ -30,7 +30,7 @@ namespace ZHub
         }
         public void SetName(string name)
         {
-            textBox1.Text = name;
+            label1.Text = name;
         }
 
         private void Template_MouseHover(object sender, EventArgs e)
@@ -75,6 +75,11 @@ namespace ZHub
             }
 
             this.Dispose();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

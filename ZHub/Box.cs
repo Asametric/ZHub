@@ -58,5 +58,10 @@ namespace ZHub
         {
             lastPoint = new Point(e.X, e.Y);
         }
+
+        private void Box_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
