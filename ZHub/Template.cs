@@ -81,5 +81,15 @@ namespace ZHub
         {
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            string Text = File.ReadAllText(@".\" + label1.Text + ".tmp");
+            string[] files = Text.Remove(Text.Length - 1).Split(',');
+            foreach (string file in files)
+            {
+                Process.Start(file);
+            }
+        }
     }
 }
