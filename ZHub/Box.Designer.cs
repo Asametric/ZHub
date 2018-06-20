@@ -55,10 +55,10 @@
             this.NewTemplate.Font = new System.Drawing.Font("Franklin Gothic Medium", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NewTemplate.ForeColor = System.Drawing.Color.White;
             this.NewTemplate.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.NewTemplate.Location = new System.Drawing.Point(241, 321);
-            this.NewTemplate.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.NewTemplate.Location = new System.Drawing.Point(181, 271);
+            this.NewTemplate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.NewTemplate.Name = "NewTemplate";
-            this.NewTemplate.Size = new System.Drawing.Size(104, 34);
+            this.NewTemplate.Size = new System.Drawing.Size(78, 28);
             this.NewTemplate.TabIndex = 1;
             this.NewTemplate.Text = "Browse";
             this.NewTemplate.UseVisualStyleBackColor = false;
@@ -70,13 +70,13 @@
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Font = new System.Drawing.Font("Franklin Gothic Medium", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.ForeColor = System.Drawing.Color.White;
-            this.richTextBox1.Location = new System.Drawing.Point(12, 73);
-            this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.richTextBox1.Location = new System.Drawing.Point(7, 65);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.richTextBox1.Multiline = false;
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.richTextBox1.Size = new System.Drawing.Size(324, 181);
+            this.richTextBox1.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.ForcedBoth;
+            this.richTextBox1.Size = new System.Drawing.Size(243, 147);
             this.richTextBox1.TabIndex = 2;
             this.richTextBox1.Text = "";
             // 
@@ -87,9 +87,9 @@
             this.panel1.Controls.Add(this.Close);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(348, 39);
+            this.panel1.Size = new System.Drawing.Size(261, 32);
             this.panel1.TabIndex = 3;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Mouse_Down);
@@ -102,9 +102,9 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(89, 39);
+            this.pictureBox1.Size = new System.Drawing.Size(67, 32);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
@@ -121,10 +121,10 @@
             this.Close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Close.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.Close.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.Close.Location = new System.Drawing.Point(304, 0);
-            this.Close.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.Close.Location = new System.Drawing.Point(228, 0);
+            this.Close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Close.Name = "Close";
-            this.Close.Size = new System.Drawing.Size(44, 39);
+            this.Close.Size = new System.Drawing.Size(33, 32);
             this.Close.TabIndex = 2;
             this.Close.UseVisualStyleBackColor = false;
             this.Close.Click += new System.EventHandler(this.Close_Click);
@@ -142,10 +142,10 @@
             this.button1.Font = new System.Drawing.Font("Franklin Gothic Medium", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button1.Location = new System.Drawing.Point(71, 321);
-            this.button1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.button1.Location = new System.Drawing.Point(53, 271);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(104, 34);
+            this.button1.Size = new System.Drawing.Size(78, 28);
             this.button1.TabIndex = 4;
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = false;
@@ -157,12 +157,14 @@
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Font = new System.Drawing.Font("Franklin Gothic Medium", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(12, 46);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBox1.Location = new System.Drawing.Point(7, 37);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(324, 18);
+            this.textBox1.Size = new System.Drawing.Size(243, 24);
             this.textBox1.TabIndex = 5;
             this.textBox1.Text = "Template Name";
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button2
@@ -177,10 +179,9 @@
             this.button2.Font = new System.Drawing.Font("Franklin Gothic Medium", 10F);
             this.button2.ForeColor = System.Drawing.Color.Snow;
             this.button2.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button2.Location = new System.Drawing.Point(33, 260);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Location = new System.Drawing.Point(26, 217);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(102, 38);
+            this.button2.Size = new System.Drawing.Size(76, 31);
             this.button2.TabIndex = 6;
             this.button2.Text = "Save";
             this.button2.UseMnemonic = false;
@@ -199,10 +200,9 @@
             this.button3.Font = new System.Drawing.Font("Franklin Gothic Medium", 10F);
             this.button3.ForeColor = System.Drawing.Color.Snow;
             this.button3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.button3.Location = new System.Drawing.Point(207, 260);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
+            this.button3.Location = new System.Drawing.Point(155, 217);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(102, 38);
+            this.button3.Size = new System.Drawing.Size(76, 31);
             this.button3.TabIndex = 7;
             this.button3.Text = "Browse";
             this.button3.UseMnemonic = false;
@@ -211,10 +211,10 @@
             // 
             // Box
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(348, 308);
+            this.ClientSize = new System.Drawing.Size(261, 260);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.textBox1);
@@ -223,7 +223,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.NewTemplate);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Box";
             this.Text = "Box";
             this.Load += new System.EventHandler(this.Box_Load);
