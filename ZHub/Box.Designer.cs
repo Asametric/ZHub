@@ -54,7 +54,7 @@
             this.NewTemplate.ForeColor = System.Drawing.Color.White;
             this.NewTemplate.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.NewTemplate.Location = new System.Drawing.Point(181, 261);
-            this.NewTemplate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.NewTemplate.Margin = new System.Windows.Forms.Padding(4);
             this.NewTemplate.Name = "NewTemplate";
             this.NewTemplate.Size = new System.Drawing.Size(104, 34);
             this.NewTemplate.TabIndex = 1;
@@ -87,6 +87,9 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(348, 39);
             this.panel1.TabIndex = 3;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Mouse_Down);
+            this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.Mouse_Move);
             // 
             // pictureBox1
             // 
@@ -95,7 +98,7 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(89, 39);
             this.pictureBox1.TabIndex = 3;
@@ -115,7 +118,7 @@
             this.Close.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F);
             this.Close.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.Close.Location = new System.Drawing.Point(304, 0);
-            this.Close.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Close.Margin = new System.Windows.Forms.Padding(4);
             this.Close.Name = "Close";
             this.Close.Size = new System.Drawing.Size(44, 39);
             this.Close.TabIndex = 2;
@@ -136,7 +139,7 @@
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.button1.Location = new System.Drawing.Point(53, 261);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(104, 34);
             this.button1.TabIndex = 4;
