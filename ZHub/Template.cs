@@ -50,7 +50,7 @@ namespace ZHub
 
         private void Template_Click(object sender, EventArgs e)
         {
-            string Text = File.ReadAllText(@".\" + textBox1.Text+".tmp");
+            string Text = File.ReadAllText(@".\" + label1.Text+".tmp");
             string[] files = Text.Remove(Text.Length - 1).Split(',');
             foreach(string file in files)
             {
@@ -61,7 +61,7 @@ namespace ZHub
         int location2 = 55;
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            File.Delete(@".\" + textBox1.Text + ".tmp");
+            File.Delete(@".\" + label1.Text + ".tmp");
             var files = Directory.GetFiles(@".\", "*.tmp");
             foreach (string file in files)
             {
